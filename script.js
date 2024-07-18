@@ -6,7 +6,7 @@ document.getElementById("button").addEventListener("click", async ()=>{
 
 	if(text&&delay){
 		let myPromise = new Promise((resolve, reject)=>{
-			sertTimeout(()=>{
+			setTimeout(()=>{
 				resolve(text);
 			},delay)
 		})
